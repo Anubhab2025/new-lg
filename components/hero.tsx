@@ -95,13 +95,13 @@ export function Hero() {
           animate={{ clipPath: "inset(0 0% 0 0)" }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
         >
-          Premium Rice. Classic Quality.
+        From Our Fields to Your Family 
         </motion.h1>
         <motion.p
           className="mt-4 sm:mt-5 md:mt-6 max-w-2xl mx-auto text-[15px] sm:text-base md:text-lg lg:text-xl text-white/95 drop-shadow-lg leading-[1.6] sm:leading-relaxed px-4 sm:px-6 md:px-0"
           variants={itemVariants}
         >
-          For over 26 years, Laddu Gopal Industries has delivered trusted rice to families and businesses across the nation, ensuring unmatched quality and taste in every grain.
+At Laddu Gopal Industries, every grain tells a story — of purity, care, and tradition. Grown with love and processed with precision, our rice brings the authentic taste of India to homes and hearts across the globe.
         </motion.p>
         <motion.div
           className="mt-6 sm:mt-8 md:mt-10 flex items-center justify-center gap-3 sm:gap-4 flex-wrap px-4 sm:px-0"

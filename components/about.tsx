@@ -21,7 +21,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 scroll-mt-24 bg-white"
+      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 scroll-mt-24 bg-gradient-to-br from-amber-50 to-orange-50"
     >
       <div className="container mx-auto px-6 sm:px-8 md:px-4 max-w-7xl">
         {/* Header */}
@@ -61,20 +61,12 @@ export function About() {
                 variants={itemVariants}
               >
                 The story of Laddu Gopal Industries (A unit of Shyamji Group)
-                began in{" "}
-                <span>1999</span>, with
-                a humble dream — to bring the finest grains of rice from our
-                land to every home. What started as a small plant with a
-                capacity of just{" "}
-                <span>
-                  4 MT per hour
-                </span>{" "}
-                has today grown into a symbol of progress, trust, and
-                perseverance, producing over{" "}
-                <span>
-                  20,000 MT of rice every month
-                </span>
-                .
+                began in <span>1999</span>, with a humble dream — to bring the
+                finest grains of rice from our land to every home. What started
+                as a small plant with a capacity of just{" "}
+                <span>4 MT per hour</span> has today grown into a symbol of
+                progress, trust, and perseverance, producing over{" "}
+                <span>20,000 MT of rice every month</span>.
               </motion.p>
               <motion.p
                 className="text-[14px] sm:text-base md:text-base text-gray-600 leading-[1.7] sm:leading-relaxed mb-4 text-justify"
@@ -82,26 +74,19 @@ export function About() {
               >
                 Now in its third generation of leadership, our journey is guided
                 by the same values that shaped our foundation —{" "}
-                <span>
-                  honesty, hard work, and commitment to quality
-                </span>
-                . Each generation has added its own vision and strength, turning
-                what began as a family business into a modern enterprise built
-                on technology and tradition alike.
+                <span>honesty, hard work, and commitment to quality</span>. Each
+                generation has added its own vision and strength, turning what
+                began as a family business into a modern enterprise built on
+                technology and tradition alike.
               </motion.p>
               <motion.p
                 className="text-[14px] sm:text-base md:text-base text-gray-600 leading-[1.7] sm:leading-relaxed mb-4 text-justify"
                 variants={itemVariants}
               >
-                Our{" "}
-                <span>
-                  state-of-the-art manufacturing campus
-                </span>{" "}
-                is powered by a dedicated{" "}
-                <span>
-                  team of more than 100 skilled professionals
-                </span>
-                , working together to ensure that every grain leaving our mill
+                Our <span>state-of-the-art manufacturing campus</span> is
+                powered by a dedicated{" "}
+                <span>team of more than 100 skilled professionals</span>,
+                working together to ensure that every grain leaving our mill
                 reflects our promise of purity and excellence.
               </motion.p>
               <motion.p
@@ -110,11 +95,9 @@ export function About() {
               >
                 From one small unit to a thriving integrated agri-industry,
                 Laddu Gopal Industries stands as{" "}
-                <span>
-                  a story of creation with purpose
-                </span>{" "}
-                — where every milestone achieved is rooted in faith, family, and
-                the farmers who make it all possible.
+                <span>a story of creation with purpose</span> — where every
+                milestone achieved is rooted in faith, family, and the farmers
+                who make it all possible.
               </motion.p>
             </motion.div>
 

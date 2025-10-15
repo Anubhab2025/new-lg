@@ -3,7 +3,7 @@ import { motion, Variants } from "framer-motion";
 
 export function QualityStrip() {
   const isEvenDay = new Date().getDate() % 2 === 0;
-  const backgroundClass = isEvenDay ? "bg-gradient-to-br from-amber-20 to-orange-20" : "bg-white";
+  const backgroundClass = "bg-gradient-to-br from-amber-50 to-orange-50";
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -54,7 +54,9 @@ export function QualityStrip() {
         >
           <h2
             className="text-3xl sm:text-4xl md:text-5xl font-serif text-gray-900 mb-2"
-            style={{ fontFamily: "'Playfair Display', 'Times New Roman', serif" }}
+            style={{
+              fontFamily: "'Playfair Display', 'Times New Roman', serif",
+            }}
           >
             Our Business
           </h2>
@@ -82,17 +84,13 @@ export function QualityStrip() {
               variants={fadeInUp}
             >
               We operate modern manufacturing facilities for{" "}
-              <span>
-                Parboiled Rice, Raw Rice, and Puffed Rice
-              </span>
-              , with a combined production capacity of over{" "}
-              <span>
-                20,000 MT per month
-              </span>
-              . Our plants are equipped with state-of-the-art automated
-              processing lines, advanced sortex systems, and stringent quality
-              control mechanisms — ensuring that every grain we produce meets
-              global standards of purity, texture, and taste.
+              <span>Parboiled Rice, Raw Rice, and Puffed Rice</span>, with a
+              combined production capacity of over{" "}
+              <span>20,000 MT per month</span>. Our plants are equipped with
+              state-of-the-art automated processing lines, advanced sortex
+              systems, and stringent quality control mechanisms — ensuring that
+              every grain we produce meets global standards of purity, texture,
+              and taste.
             </motion.p>
 
             <motion.p
@@ -101,15 +99,11 @@ export function QualityStrip() {
             >
               Expanding our commitment to a greener planet, we have also built a
               dedicated vertical for producing{" "}
-              <span>
-                biomass pellets and briquettes
-              </span>
-              , converting agricultural residue into clean energy. Today, we
-              proudly supply biomass fuel to{" "}
-              <span>
-                major Thermal Power Plants across the country
-              </span>
-              , contributing to India's renewable energy goals.
+              <span>biomass pellets and briquettes</span>, converting
+              agricultural residue into clean energy. Today, we proudly supply
+              biomass fuel to{" "}
+              <span>major Thermal Power Plants across the country</span>,
+              contributing to India's renewable energy goals.
             </motion.p>
 
             <motion.p
@@ -117,21 +111,14 @@ export function QualityStrip() {
               variants={fadeInUp}
             >
               Our strength lies in our people — especially the{" "}
-              <span>1,000+ farmers</span>{" "}
-              who are part of our extended family. Through{" "}
-              <span>
-                backward integration programs
-              </span>
-              , we work closely with them, ensuring fair prices and consistent
-              demand. We also procure{" "}
-              <span>agro-waste</span>{" "}
-              directly from farms — material often left behind after harvest —
-              transforming it into a valuable resource. This not only creates{" "}
-              <span>
-                additional income for farmers
-              </span>{" "}
-              but also reduces field burning, preserving the health of our land
-              and air.
+              <span>1,000+ farmers</span> who are part of our extended family.
+              Through <span>backward integration programs</span>, we work
+              closely with them, ensuring fair prices and consistent demand. We
+              also procure <span>agro-waste</span> directly from farms —
+              material often left behind after harvest — transforming it into a
+              valuable resource. This not only creates{" "}
+              <span>additional income for farmers</span> but also reduces field
+              burning, preserving the health of our land and air.
             </motion.p>
 
             <motion.p
@@ -139,15 +126,9 @@ export function QualityStrip() {
               variants={fadeInUp}
             >
               Over the decades, this journey has earned us not just growth, but{" "}
-              <span>
-                trust, respect, and long-lasting relationships
-              </span>{" "}
-              across the value chain. At Laddu Gopal Industries, every grain
-              tells a story — of{" "}
-              <span>
-                sustainability, partnership, and purpose
-              </span>
-              .
+              <span>trust, respect, and long-lasting relationships</span> across
+              the value chain. At Laddu Gopal Industries, every grain tells a
+              story — of <span>sustainability, partnership, and purpose</span>.
             </motion.p>
           </div>
         </motion.div>
