@@ -27,7 +27,7 @@ export default function ProcessSection() {
     {
       id: 3,
       title: "Parboiling & Drying",
-      image: "/images/Process/Parboiling & Drying.jpg",
+      image: "/images/Process/Parboiling & Drying[1].jpg",
       description:
         "Paddy is soaked, steamed, and dried to enhance its nutritional profile and improve milling yields. This process also helps in reducing breakage during milling.",
     },
@@ -79,7 +79,7 @@ export default function ProcessSection() {
     {
       id: 4,
       title: "Pelletization",
-      image: "/images/Biomass/Grinding.jpg",
+      image: "/images/Biomass/Packaging.png",
       description:
         "Ground biomass is compressed through a pellet mill under high pressure and temperature. The natural lignin acts as a binder, forming dense, cylindrical pellets without any chemical additives.",
     },
