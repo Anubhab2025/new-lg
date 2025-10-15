@@ -3,7 +3,7 @@ import { motion, Variants } from "framer-motion";
 
 export function QualityStrip() {
   const isEvenDay = new Date().getDate() % 2 === 0;
-  const backgroundClass = "bg-gradient-to-br from-amber-50 to-orange-50";
+  const backgroundClass = "bg-gradient-to-br from-amber-20 to-orange-20";
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {

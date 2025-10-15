@@ -21,7 +21,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 scroll-mt-24 bg-gradient-to-br from-amber-50 to-orange-50"
+      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 scroll-mt-24 bg-gradient-to-br from-amber-20 to-orange-20"
     >
       <div className="container mx-auto px-6 sm:px-8 md:px-4 max-w-7xl">
         {/* Header */}
