@@ -136,7 +136,7 @@ export default function ProcessSection() {
   return (
     <section
       id="process"
-      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 bg-gradient-to-br from-amber-20 to-orange-20 scroll-mt-24 overflow-hidden"
+      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 bg-white scroll-mt-24 overflow-hidden"
     >
       <div className="container mx-auto px-6 sm:px-8 md:px-4 max-w-7xl">
         {/* Rice Milling Process */}

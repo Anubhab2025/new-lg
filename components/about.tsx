@@ -21,7 +21,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 scroll-mt-24 bg-gradient-to-br from-amber-20 to-orange-20"
+      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 scroll-mt-24 bg-white"
     >
       <div className="container mx-auto px-6 sm:px-8 md:px-4 max-w-7xl">
         {/* Header */}
@@ -62,16 +62,16 @@ export function About() {
               >
                 The story of Laddu Gopal Industries (A unit of Shyamji Group)
                 began in{" "}
-                <span className="font-semibold text-gray-900">1999</span>, with
+                <span>1999</span>, with
                 a humble dream — to bring the finest grains of rice from our
                 land to every home. What started as a small plant with a
                 capacity of just{" "}
-                <span className="font-semibold text-gray-900">
+                <span>
                   4 MT per hour
                 </span>{" "}
                 has today grown into a symbol of progress, trust, and
                 perseverance, producing over{" "}
-                <span className="font-semibold text-gray-900">
+                <span>
                   20,000 MT of rice every month
                 </span>
                 .
@@ -82,7 +82,7 @@ export function About() {
               >
                 Now in its third generation of leadership, our journey is guided
                 by the same values that shaped our foundation —{" "}
-                <span className="font-semibold text-gray-900">
+                <span>
                   honesty, hard work, and commitment to quality
                 </span>
                 . Each generation has added its own vision and strength, turning
@@ -94,11 +94,11 @@ export function About() {
                 variants={itemVariants}
               >
                 Our{" "}
-                <span className="font-semibold text-gray-900">
+                <span>
                   state-of-the-art manufacturing campus
                 </span>{" "}
                 is powered by a dedicated{" "}
-                <span className="font-semibold text-gray-900">
+                <span>
                   team of more than 100 skilled professionals
                 </span>
                 , working together to ensure that every grain leaving our mill
@@ -110,7 +110,7 @@ export function About() {
               >
                 From one small unit to a thriving integrated agri-industry,
                 Laddu Gopal Industries stands as{" "}
-                <span className="font-semibold text-gray-900">
+                <span>
                   a story of creation with purpose
                 </span>{" "}
                 — where every milestone achieved is rooted in faith, family, and

@@ -2,6 +2,8 @@
 import { motion, Variants } from "framer-motion";
 
 export function QualityStrip() {
+  const isEvenDay = new Date().getDate() % 2 === 0;
+  const backgroundClass = isEvenDay ? "bg-gradient-to-br from-amber-20 to-orange-20" : "bg-white";
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -39,7 +41,7 @@ export function QualityStrip() {
   return (
     <section
       id="quality"
-      className="pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 bg-gradient-to-br from-amber-20 to-orange-20"
+      className={`pt-8 pb-16 sm:pt-10 sm:pb-20 md:pt-12 md:pb-24 ${backgroundClass}`}
     >
       <div className="container mx-auto px-6 sm:px-4 max-w-7xl">
         {/* Heading - Matching ProductGrid Style */}
@@ -80,11 +82,11 @@ export function QualityStrip() {
               variants={fadeInUp}
             >
               We operate modern manufacturing facilities for{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 Parboiled Rice, Raw Rice, and Puffed Rice
               </span>
               , with a combined production capacity of over{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 20,000 MT per month
               </span>
               . Our plants are equipped with state-of-the-art automated
@@ -99,12 +101,12 @@ export function QualityStrip() {
             >
               Expanding our commitment to a greener planet, we have also built a
               dedicated vertical for producing{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 biomass pellets and briquettes
               </span>
               , converting agricultural residue into clean energy. Today, we
               proudly supply biomass fuel to{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 major Thermal Power Plants across the country
               </span>
               , contributing to India's renewable energy goals.
@@ -115,17 +117,17 @@ export function QualityStrip() {
               variants={fadeInUp}
             >
               Our strength lies in our people — especially the{" "}
-              <span className="font-bold text-gray-800">1,000+ farmers</span>{" "}
+              <span>1,000+ farmers</span>{" "}
               who are part of our extended family. Through{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 backward integration programs
               </span>
               , we work closely with them, ensuring fair prices and consistent
               demand. We also procure{" "}
-              <span className="font-bold text-gray-800">agro-waste</span>{" "}
+              <span>agro-waste</span>{" "}
               directly from farms — material often left behind after harvest —
               transforming it into a valuable resource. This not only creates{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 additional income for farmers
               </span>{" "}
               but also reduces field burning, preserving the health of our land
@@ -137,12 +139,12 @@ export function QualityStrip() {
               variants={fadeInUp}
             >
               Over the decades, this journey has earned us not just growth, but{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 trust, respect, and long-lasting relationships
               </span>{" "}
               across the value chain. At Laddu Gopal Industries, every grain
               tells a story — of{" "}
-              <span className="font-bold text-gray-800">
+              <span>
                 sustainability, partnership, and purpose
               </span>
               .
